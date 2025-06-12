@@ -50,7 +50,7 @@ The notebook walks through the following stages:
 
 6.  **Effects of Quantization & Robustness of Quantized Model**:
     *   **Model Size Reduction**: From 13.02 MB (FP32) to 6.72 MB (Dynamically Quantized).
-    *   **Accuracy Preservation**: Minimal drop from 86.74% (FP32) to 86.72% (Quantized).
+    *   **Accuracy Preservation**: Minimal drop from 90.62% (FP32) to 90.55% (Quantized).
     *   **Robustness (Transfer Attack)**: Adversarial examples generated on the FP32 model were tested against the quantized model. The transfer attack was successful (e.g., "ship" misclassified as "automobile" by the quantized model).
     *   **Mitigation (Quantized Model)**: Similar mitigation strategies were applied to the transferred adversarial images:
         *   **Gaussian Blur (k=3)**: Successful.
